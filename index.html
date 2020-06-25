@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOOR CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>NOOR CALCULATOR</H1>
+<div id="maind">  
+<form name="main" id="form">
+
+<input type="text" id="text" name="input" ><br>
+
+<input type="button" class="firstrow" value=" 1 " onclick="main.input.value += 1">
+<input type="button" class="firstrow" value=" 2 " onclick="main.input.value += 2">
+<input type="button" class="firstrow" value=" 3 " onclick="main.input.value += 3">
+
+<br>
+
+<input type="button" class="secrow" value=" 4 " onclick="main.input.value += 4">
+<input type="button" class="secrow" value=" 5 " onclick="main.input.value += 5">
+<input type="button" class="secrow" value=" 6 " onclick="main.input.value += 6">
+
+<br>
+
+<input type="button" class="thirdrow" value=" 7 " onclick="main.input.value += 7">
+<input type="button" class="thirdrow" value=" 8 " onclick="main.input.value += 8">
+<input type="button" class="thirdrow" value=" 9 " onclick="main.input.value += 9">
+
+<br>
+
+<input type="button" class="forthrow" value=" + " onclick="main.input.value += '+'">
+<input type="button" class="forthrow" value=" - " onclick="main.input.value += '-'">
+<input type="button" class="forthrow" value=" * " onclick="main.input.value += '*'">
+
+<br>
+
+<input type="button" class="fifthrow" value=" \ " onclick="main.input.value += '/'">
+<input type="button" class="fifthrow" value=" = " onclick="main.input.value = eval(main.input.value) ">
+<input type="button" class="fifthrow" value=" 0 " onclick="main.input.value += '0'">
+
+<br>
+
+<input type="button" id="clearall" value="Clear" onclick="main.input.value = ''">
+</div> 
+</form>
+</body>
+</html>

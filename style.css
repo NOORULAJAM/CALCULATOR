@@ -1,0 +1,94 @@
+body
+{
+    background-color: rgb(0, 172, 143);
+}
+h1
+{
+    text-align: center;
+    margin-top: 5px;
+}
+#maind
+{
+    
+    width: 180px;
+    height: 270px;
+    margin: auto;
+    background-color: rgb(165, 61, 61);
+}
+#text
+{
+    margin-top: 5px;
+    margin-left: 3px;
+}
+#form
+{
+    margin-top: 30px;
+}
+.firstrow
+{
+    
+        display: inline-block;
+        justify-content: space-around;
+        height: 30px;
+        border: 3px solid green;
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+     
+}
+.secrow
+{
+    
+        display: inline-block;
+        justify-content: space-around;
+        height: 30px;
+        border: 3px solid green;
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+}
+.thirdrow
+{
+    
+        display: inline-block;
+        justify-content: space-around;
+        height: 30px;
+        border: 3px solid green;
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+}
+.forthrow
+{
+    
+        display: inline-block;
+        justify-content: space-around;
+        height: 30px;
+        border: 3px solid green;
+        margin-left: 16px;
+        margin-top: 10px;
+        border-radius: 8px;
+}
+.fifthrow
+{
+    
+        display: inline-block;
+        justify-content: space-around;
+        height: 30px;
+        border: 3px solid green;
+        margin-left: 16px;
+        margin-top: 10px;
+        border-radius: 10px;
+}
+#clearall
+{
+    
+        display: inline-block;
+        justify-content: space-around;
+        height: 30px;
+        border: 3px solid green;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 150px;
+     
+}
